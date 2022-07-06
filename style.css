@@ -79,12 +79,14 @@ input {
 
 .card {
     display: flex;
-    align-content: center;
+    flex: 100%;
+    margin-left: 350px;
+    align-content: space-between;
 }
 
 .card-design {
     width: 250px;
-    height: 200px;
+    height: 230px;
     text-align: left;
     padding: 5px;
     margin: 10px;
@@ -97,8 +99,8 @@ input {
 
 .subscribe-button-section {
     background-color: aqua;
-    width: 50%;
-    height: 180px;
+    width: 100%;
+    height: 80px;
 }
 
 .footer-section {
@@ -112,4 +114,13 @@ input {
     text-align: center;
     font-size: 35px;
     font-family: 'The Nautigal', cursive;
+}
+.card-title-section{
+    width: 50%;
+    text-align: center;
+    margin-left: 350px;
+}
+.bonus-image-section img{
+    display: flex;
+    flex: 33%;
 }
