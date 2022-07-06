@@ -59,6 +59,18 @@ body {
 .subscribe-button-section {
     background-color: aqua;
     width: 50%;
-    height: 500px;
-    align-items: center;
+    height: 180px;
+}
+
+.footer-section {
+    background-color: black;
+    text-align: center;
+    color: grey;
+    height: 150px;
+}
+
+#footer-text-design {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'The Nautigal', cursive;
 }
