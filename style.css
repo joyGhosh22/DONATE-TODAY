@@ -1,23 +1,29 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .h1-decoration {
     font-size: 50px;
     font-weight: bold;
+    background-color: aliceblue;
 }
 
 .first-section {
-    background-image: url(./images/donation2.jpg);
-    width: 100%vh;
-    height: 700px;
-    ;
+    background-image: url(./images/donation12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .first-division {
     text-align: center;
     padding: 200px;
+}
+
+.first-para {
+    background-color: aliceblue;
 }
 
 .button-design {
@@ -26,12 +32,45 @@ body {
     border-radius: 5px;
     color: white;
     border-color: brown;
+}
 
+.second-section {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 200px;
+    align-content: center;
+    text-align: center;
 }
 
 .figure-amount {
     display: flex;
     border-style: none;
+    align-content: space-around;
+}
+
+#tk-figure-specific {
+    background-color: aqua;
+    border: 2px solid tomato;
+    border-radius: 3px;
+}
+
+.figure-amount>p {
+    background-color: bisque;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+input {
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    width: 500px;
+    text-align: center;
+    margin: 30px;
 }
 
 .card-section {
