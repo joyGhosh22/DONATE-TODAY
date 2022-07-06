@@ -122,5 +122,22 @@ input {
 }
 .bonus-image-section img{
     display: flex;
-    flex: 33%;
+    margin: 33px;
+
+}
+.row {
+    display: flex;
+}
+.column img{
+    flex: 33.33%;
+    height: 250px;
+}
+#bonus-heading-decoration{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+#bonus-section-paragraph{
+    text-align: center;
 }
