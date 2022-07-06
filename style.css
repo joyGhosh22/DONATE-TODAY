@@ -18,12 +18,47 @@ body {
 .first-division {
     text-align: center;
     padding: 200px;
+}
 
-    .button-design {
-        background-color: brown;
-        padding: 10px 30px;
-        border-radius: 5px;
-        color: white;
-        border-color: brown;
+.button-design {
+    background-color: brown;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    border-color: brown;
 
-    }
+}
+
+.figure-amount {
+    display: flex;
+    border-style: none;
+}
+
+.card-section {
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-content: center;
+}
+
+.card-design {
+    width: 250px;
+    height: 200px;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+    background-color: beige;
+}
+
+.icon-design {
+    width: 30px;
+}
+
+.subscribe-button-section {
+    background-color: aqua;
+    width: 50%;
+    height: 500px;
+    align-items: center;
+}
